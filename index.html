@@ -3,80 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NBTF Vezérlőpult - Biztonság. Intelligencia. Jövő.</title>
+    <title>NBTF Control - Biztonsági Rendszer</title>
     <style>
         body {
             background-color: #0a0a0a;
             color: white;
             font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
             text-align: center;
-            padding: 20px;
         }
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: auto;
+            padding: 20px;
         }
-        .header {
-            font-size: 32px;
-            font-weight: bold;
+        h1 {
             color: cyan;
-            margin-bottom: 10px;
+            font-size: 36px;
         }
-        .subheader {
+        .description {
             font-size: 18px;
-            color: gray;
-            margin-bottom: 20px;
+            margin-top: 10px;
         }
-        .image {
+        .feature {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+        }
+        .feature img {
             width: 100%;
-            max-width: 600px;
-            border-radius: 10px;
-            margin-bottom: 20px;
+            border-radius: 8px;
         }
-        .cta-button {
+        .join-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
             background-color: cyan;
             color: black;
-            padding: 15px 25px;
             font-size: 20px;
-            font-weight: bold;
-            border: none;
+            text-decoration: none;
             border-radius: 5px;
-            cursor: pointer;
-            transition: 0.3s;
+            font-weight: bold;
         }
-        .cta-button:hover {
-            background-color: white;
-        }
-        .section {
-            margin-top: 40px;
-            padding: 20px;
-            background-color: #1a1a1a;
-            border-radius: 10px;
+        .join-button:hover {
+            background-color: #00a3a3;
         }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <div class="header">NBTF Vezérlőpult</div>
-        <div class="subheader">A biztonság és vezérlés jövője</div>
-        <img src="A_futuristic_control_panel_interface_for_a_securit.png" alt="NBTF Vezérlőpult" class="image">
+        <h1>NBTF Control Panel</h1>
+        <p class="description">A legfejlettebb biztonsági rendszer, amely teljes irányítást biztosít.</p>
 
-        <div class="section">
-            <h2>Miért válaszd az NBTF Vezérlőpultot?</h2>
-            <p>- Azonnali lezárás aktiválása (1-5. szint és teljes lezárás)</p>
-            <p>- AI-alapú CCTV megfigyelés</p>
-            <p>- Biztonságos hozzáférés-ellenőrzés Face ID-val</p>
-            <p>- Pánikgomb vészhelyzetekre</p>
-            <p>- Valós idejű biztonsági naplók és figyelmeztetések</p>
+        <div class="feature">
+            <h2>📹 CCTV Megfigyelés</h2>
+            <img src="https://source.unsplash.com/800x400/?security,camera" alt="CCTV">
+            <p>Élő kamerakép és AI által generált riasztások.</p>
         </div>
 
-        <div class="section">
-            <h2>Csatlakozz a béta tesztelők közé</h2>
-            <p>Legyél az elsők között, akik kipróbálhatják az NBTF Vezérlőpultot.</p>
-            <button class="cta-button" onclick="window.open('https://melonly.xyz/forms/7308184634196496384', '_blank')">Csatlakozom a Béta Teszteléshez</button>
+        <div class="feature">
+            <h2>🔒 Hozzáférés Ellenőrzés</h2>
+            <img src="https://source.unsplash.com/800x400/?fingerprint,technology" alt="Access Control">
+            <p>Arcazonosítás, jelszóvédelem és jogosultságkezelés.</p>
         </div>
+
+        <div class="feature">
+            <h2>🚨 Lockdown Rendszer</h2>
+            <img src="https://source.unsplash.com/800x400/?emergency,security" alt="Lockdown">
+            <p>Azonnali lezárás vészhelyzetek esetére.</p>
+        </div>
+
+        <a href="https://melonly.xyz/forms/7308184634196496384" class="join-button">Csatlakozz a Beta Tesztelőkhöz!</a>
     </div>
 
 </body>
 </html>
+
